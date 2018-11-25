@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>0078 jQuery Basic 02</title>
+</head>
+<body>
+  <p>jQuery Basic 03</p>
+  
+  <ul id="main">
+    <li>1</li>
+    <li class="item">2</li>
+    <li class="item">3</li>
+    <li>
+     4
+     <ul id="sub">
+       <li>4-1</li>
+       <li>4-2</li>
+       <li class="item">4-3</li>
+       <li class="item">4-4</li>
+       <li>4-5</li>
+     </ul> 
+    </li>
+  </ul>    
+  
+  <script
+  src="https://code.jquery.com/jquery-3.3.1.slim.js"
+  integrity="sha256-fNXJFIlca05BIO2Y5zh1xrShK3ME+/lYZ0j+ChxX2DA="
+  crossorigin="anonymous"></script>
+  <script>
+    //$(document).ready(function(){
+    $(function(){
+//      $('#sub').css('color','red'); 
+      $('.item').css('color','red');       
+    });
+  </script>
+</body>
+</html>
